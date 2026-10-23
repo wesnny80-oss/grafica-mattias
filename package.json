@@ -4,9 +4,9 @@
   "private": true,
   "packageManager": "pnpm@12.3.4",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev": "serve site -l 3000",
+    "build": "echo static site",
+    "start": "serve site -l 3000"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",
@@ -27,6 +27,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "postcss": "^8.5",
+    "serve": "^14.2.6",
     "tailwindcss": "^4.3.3",
     "typescript": "5.7.3"
   }
