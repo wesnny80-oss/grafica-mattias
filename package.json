@@ -4,9 +4,9 @@
   "private": true,
   "packageManager": "pnpm@12.3.4",
   "scripts": {
-    "dev": "serve site -l 3000",
-    "build": "echo static site",
-    "start": "serve site -l 3000"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",
